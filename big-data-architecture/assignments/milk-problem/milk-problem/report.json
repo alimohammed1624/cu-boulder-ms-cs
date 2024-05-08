@@ -1,0 +1,76 @@
+{
+  "individualResults": [
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "1",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "initial schema",
+          "type": "SQL",
+          "filepath": "/Users/alimohammed1624/Documents/acads/cu-boulder/big-data-architecture/milk-problem/milk-problem/databases/milk/V1__initial_schema.sql",
+          "executionTime": 7
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.21.1",
+      "database": "milk_development",
+      "warnings": [],
+      "timestamp": "2023-08-02T08:10:20.189669",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "1",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "initial schema",
+          "type": "SQL",
+          "filepath": "/Users/alimohammed1624/Documents/acads/cu-boulder/big-data-architecture/milk-problem/milk-problem/databases/milk/V1__initial_schema.sql",
+          "executionTime": 8
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.21.1",
+      "database": "milk_test",
+      "warnings": [],
+      "timestamp": "2023-08-02T08:12:37.819545",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "1",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "initial schema",
+          "type": "SQL",
+          "filepath": "/Users/alimohammed1624/Documents/acads/cu-boulder/big-data-architecture/milk-problem/milk-problem/databases/milk/V1__initial_schema.sql",
+          "executionTime": 7
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.21.1",
+      "database": "milk_development",
+      "warnings": [],
+      "timestamp": "2023-08-02T08:12:53.454007",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    }
+  ]
+}

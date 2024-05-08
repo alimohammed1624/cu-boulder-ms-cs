@@ -1,0 +1,8 @@
+l2023-08-30 16:09:44.221 [Test worker] INFO  io.milk.workflow.WorkScheduler - scheduling worker sales-worker
+l2023-08-30 16:09:44.223 [Test worker] INFO  io.milk.workflow.WorkScheduler - scheduling worker sales-worker
+l2023-08-30 16:09:44.224 [Test worker] INFO  io.milk.workflow.WorkScheduler - scheduling worker sales-worker
+l2023-08-30 16:09:44.224 [Test worker] INFO  io.milk.workflow.WorkScheduler - scheduling worker sales-worker
+p2023-08-30 16:09:44.225 [pool-1-thread-2] INFO  io.milk.client.PurchaseGenerator - someone purchased some milk!
+p2023-08-30 16:09:44.225 [pool-1-thread-1] INFO  io.milk.client.PurchaseGenerator - someone purchased some milk!
+p2023-08-30 16:09:44.225 [pool-1-thread-4] INFO  io.milk.client.PurchaseGenerator - someone purchased some milk!
+p2023-08-30 16:09:44.225 [pool-1-thread-3] INFO  io.milk.client.PurchaseGenerator - someone purchased some milk!

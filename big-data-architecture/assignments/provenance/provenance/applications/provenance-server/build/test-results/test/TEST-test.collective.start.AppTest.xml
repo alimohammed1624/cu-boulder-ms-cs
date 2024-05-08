@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.collective.start.AppTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-08-02T00:36:33" hostname="MSA-MacBookAir" time="0.25">
+  <properties/>
+  <testcase name="articles" classname="test.collective.start.AppTest" time="0.245"/>
+  <testcase name="slash" classname="test.collective.start.AppTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO org.eclipse.jetty.util.log - Logging initialized @228ms
+[Test worker] INFO io.collective.start.App - App started.
+[Test worker] INFO org.eclipse.jetty.server.Server - jetty-9.3.0.M2
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@7fb4f2a9{HTTP/1.1,[http/1.1]}{0.0.0.0:8888}
+[Test worker] INFO org.eclipse.jetty.server.Server - Started @294ms
+[Test worker] INFO io.collective.workflow.WorkScheduler - scheduling worker ready
+[pool-1-thread-1] INFO io.collective.workflow.WorkScheduler - found work for ready
+[Test worker] INFO io.collective.start.App - App stopped.
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@7fb4f2a9{HTTP/1.1,[http/1.1]}{0.0.0.0:8888}
+[Test worker] INFO io.collective.start.App - App started.
+[Test worker] INFO org.eclipse.jetty.server.Server - jetty-9.3.0.M2
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@3549bca9{HTTP/1.1,[http/1.1]}{0.0.0.0:8888}
+[Test worker] INFO org.eclipse.jetty.server.Server - Started @462ms
+[Test worker] INFO io.collective.workflow.WorkScheduler - scheduling worker ready
+[pool-3-thread-1] INFO io.collective.workflow.WorkScheduler - found work for ready
+[Test worker] INFO io.collective.start.App - App stopped.
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@3549bca9{HTTP/1.1,[http/1.1]}{0.0.0.0:8888}
+]]></system-err>
+</testsuite>

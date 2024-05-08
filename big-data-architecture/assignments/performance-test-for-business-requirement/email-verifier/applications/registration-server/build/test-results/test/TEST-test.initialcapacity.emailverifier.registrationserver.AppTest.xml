@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.initialcapacity.emailverifier.registrationserver.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-08T00:38:10" hostname="MSA-MacBookAir" time="0.576">
+  <properties/>
+  <testcase name="testInfo" classname="test.initialcapacity.emailverifier.registrationserver.AppTest" time="0.576"/>
+  <system-out><![CDATA[2023-08-08 06:08:10.537 [DefaultDispatcher-worker-1 @call-context#2] INFO  ktor.test - Application auto-reloaded in 0.171 seconds.
+2023-08-08 06:08:10.539 [DefaultDispatcher-worker-1 @call-context#2] INFO  ktor.test - Application started: io.ktor.server.application.Application@5aead384
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

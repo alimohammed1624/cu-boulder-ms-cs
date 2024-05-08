@@ -1,0 +1,28 @@
+version '1.0-SNAPSHOT'
+
+apply plugin: 'application'
+
+mainClassName = "io.milk.start.AppKt"
+
+dependencies {
+    implementation project(":components:products")
+    implementation project(":components:database-support")
+
+    implementation 'com.zaxxer:HikariCP:3.2.0'
+
+    implementation "io.ktor:ktor-freemarker:$ktor_version"
+    implementation "io.ktor:ktor-jackson:$ktor_version"
+
+    testImplementation project(":components:test-support")
+}
+
+jar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    manifest {
+        attributes "Main-Class": "io.milk.start.AppKt"
+    }
+    from {
+        configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}

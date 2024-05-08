@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.collective.articles.ArticlesControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-08-02T00:36:34" hostname="MSA-MacBookAir" time="0.232">
+  <properties/>
+  <testcase name="findAll" classname="test.collective.articles.ArticlesControllerTest" time="0.227"/>
+  <testcase name="findAvailable" classname="test.collective.articles.ArticlesControllerTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO org.eclipse.jetty.util.log - Logging initialized @241ms
+[Test worker] INFO test.collective.articles.ArticlesControllerTest$1 - App started.
+[Test worker] INFO org.eclipse.jetty.server.Server - jetty-9.3.0.M2
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@5340477f{HTTP/1.1,[http/1.1]}{0.0.0.0:8888}
+[Test worker] INFO org.eclipse.jetty.server.Server - Started @300ms
+[Test worker] INFO test.collective.articles.ArticlesControllerTest$1 - App stopped.
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@5340477f{HTTP/1.1,[http/1.1]}{0.0.0.0:8888}
+[Test worker] INFO test.collective.articles.ArticlesControllerTest$1 - App started.
+[Test worker] INFO org.eclipse.jetty.server.Server - jetty-9.3.0.M2
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@7bb6ab3a{HTTP/1.1,[http/1.1]}{0.0.0.0:8888}
+[Test worker] INFO org.eclipse.jetty.server.Server - Started @459ms
+[Test worker] INFO test.collective.articles.ArticlesControllerTest$1 - App stopped.
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@7bb6ab3a{HTTP/1.1,[http/1.1]}{0.0.0.0:8888}
+]]></system-err>
+</testsuite>

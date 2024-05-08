@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.initialcapacity.emailverifier.confirmation.RegistrationRequestDataGatewayTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-06T20:47:31" hostname="MSA-MacBookAir" time="0.103">
+  <properties/>
+  <testcase name="testGet" classname="test.initialcapacity.emailverifier.confirmation.RegistrationRequestDataGatewayTest" time="0.103"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

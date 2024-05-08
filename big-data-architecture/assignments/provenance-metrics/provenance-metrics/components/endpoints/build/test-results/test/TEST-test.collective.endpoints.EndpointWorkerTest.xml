@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.collective.endpoints.EndpointWorkerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-02T00:46:35" hostname="MSA-MacBookAir" time="0.239">
+  <properties/>
+  <testcase name="finder" classname="test.collective.endpoints.EndpointWorkerTest" time="0.239"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.collective.endpoints.EndpointWorker - found title Presentation: InfraCoding with Terraform: Writing Tests for Infrastructure-as-Code.
+[Test worker] INFO io.collective.endpoints.EndpointWorker - found title GitLab 2020 Remote Work Report Highlights Key Motivators for Remote Work.
+[Test worker] INFO io.collective.endpoints.EndpointWorker - found title Presentation: ML/AI Panel.
+[Test worker] INFO io.collective.endpoints.EndpointWorker - found title Presentation: Optimizing You Panel: Path to Awesomeness.
+[Test worker] INFO io.collective.endpoints.EndpointWorker - found title Presentation: Impact Starts with You.
+[Test worker] INFO io.collective.endpoints.EndpointWorker - found title What Comes After Microservices? Multi-Runtime Microservices With Bilgin Ibryam at QCon London.
+[Test worker] INFO io.collective.endpoints.EndpointWorker - found title Deep Learning Accelerates Scientific Simulations up to Two Billion Times.
+[Test worker] INFO io.collective.endpoints.EndpointWorker - found title Article: Has an AI Cyber Attack Happened Yet?.
+[Test worker] INFO io.collective.endpoints.EndpointWorker - found title Podcast: Howard Sublett on Current and Future State of the Scrum Alliance.
+[Test worker] INFO io.collective.endpoints.EndpointWorker - found title Presentation: Swift for Tensorflow.
+[Test worker] INFO io.collective.endpoints.EndpointWorker - found title Presentation: Security and Compliance Theater - The Seventh Deadly Disease.
+[Test worker] INFO io.collective.endpoints.EndpointWorker - found title Podcast: Luca Mezzalira on Micro Frontends at DAZN.
+[Test worker] INFO io.collective.endpoints.EndpointWorker - found title Article: Q&A on the Book How to Lead in Product Management.
+[Test worker] INFO io.collective.endpoints.EndpointWorker - found title Presentation: This Isn't Just a Conversation: The Art of User Interviews.
+[Test worker] INFO io.collective.endpoints.EndpointWorker - found title Presentation: Maps and Stories.
+]]></system-err>
+</testsuite>

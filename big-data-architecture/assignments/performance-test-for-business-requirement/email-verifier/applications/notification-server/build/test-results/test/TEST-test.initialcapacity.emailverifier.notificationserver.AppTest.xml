@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.initialcapacity.emailverifier.notificationserver.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-08T00:38:03" hostname="MSA-MacBookAir" time="1.133">
+  <properties/>
+  <testcase name="testApp" classname="test.initialcapacity.emailverifier.notificationserver.AppTest" time="1.133"/>
+  <system-out><![CDATA[2023-08-08 06:08:03.773 [Test worker] INFO  org.eclipse.jetty.util.log - Logging initialized @430ms to org.eclipse.jetty.util.log.Slf4jLog
+2023-08-08 06:08:03.801 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-08-08 06:08:03.972 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@426b6a74
+2023-08-08 06:08:03.973 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-08-08 06:08:03.976 [Test worker] INFO  ktor.application - Autoreload is disabled because the development mode is off.
+2023-08-08 06:08:04.005 [Test worker] INFO  ktor.application - Application auto-reloaded in 0.028 seconds.
+2023-08-08 06:08:04.006 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.45.v20220203; built: 2022-02-03T09:14:34.105Z; git: 4a0c91c0be53805e3fcffdcdcc9587d5301863db; jvm 17.0.8+0
+2023-08-08 06:08:04.017 [Test worker] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@687ef2e0{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:9021}
+2023-08-08 06:08:04.017 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @675ms
+2023-08-08 06:08:04.018 [DefaultDispatcher-worker-1 @coroutine#1] INFO  ktor.application - Responding at http://0.0.0.0:9021
+2023-08-08 06:08:04.161 [Test worker @coroutine#2] INFO  i.i.e.notificationserver.App - listening for registration notifications
+2023-08-08 06:08:04.387 [pool-1-thread-10 @coroutine#3] DEBUG i.i.e.notificationserver.App - received registration notification NotificationMessage(email=to@example.com, confirmationCode=33333333-e89b-12d3-a456-426614174000)
+2023-08-08 06:08:04.584 [pool-1-thread-10 @coroutine#3] DEBUG i.i.e.notification.Notifier - sending notification to: to@example.com, subject: Confirmation code, message: Your confirmation code is 33333333-e89b-12d3-a456-426614174000
+2023-08-08 06:08:04.754 [ktor-jetty-9021-4 @jetty-call-handler#5] DEBUG i.i.e.f.FakeSendgrid - email sent {
+    "personalizations": [{"to":[{"email": "to@example.com"}]}],
+    "from": {"email": "from@example.com"},
+    "subject": "Confirmation code",
+    "content": [{
+        "type": "text/plain",
+        "value": "Your confirmation code is 33333333-e89b-12d3-a456-426614174000"
+    }]
+}
+2023-08-08 06:08:04.784 [Test worker] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@687ef2e0{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:9021}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

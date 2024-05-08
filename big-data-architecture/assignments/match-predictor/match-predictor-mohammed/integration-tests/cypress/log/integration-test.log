@@ -1,0 +1,27 @@
+/Users/alimohammed1624/Documents/acads/cu-boulder/big-data-architecture/match-predictor/match-predictor-mohammed/backend/env/lib/python3.11/site-packages/sklearn/preprocessiBrowserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+.
+  warnings.warn(
+ * Tip: There are .env or .flaskenv files present. Do "pip install python-dotenv" to use them.
+ * Serving Flask app 'matchpredictor.app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running o127.0.0.1 - - [07/Aug/2023 00:47:28] "GET /fixture.csv HTTP/1.1" 200 -
+s CTRL+C to quit[0m
+ * Restarting with stat
+/Users/alimohammed1624/Documents/acads/cu-boulder/big-data-architecture/match-predictor/match-predictor-mohammed/backend/env/lib/python3.11/site-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+ * Tip: There are .env or .flaskenv files present. Do "pip install python-dotenv" to use them.
+ * Debugger is active!
+ * Debugger PIN: 119-122-315
+127.0.0.1 - - [07/Aug/2023 00:47:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2023 00:47:52] "GET /teams HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2023 00:47:52] "GET /models HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2023 00:47:53] "[35m[1mGET /upcoming-games/2023-08-06 HTTP/1.1[0m" 503 -
+127.0.0.1 - - [07/Aug/2023 00:47:57] "GET /forecast?home_name=Always+Wins&away_name=Always+Loses&league=undefined&model_name=Full+simulator HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2023 00:47:59] "GET /teams HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2023 00:47:59] "GET /models HTTP/1.1" 200 -
+127.0.0.1 - - [07/Aug/2023 00:48:00] "[35m[1mGET /upcoming-games/2023-08-06 HTTP/1.1[0m" 503 -
+127.0.0.1 - - [07/Aug/2023 00:48:01] "GET /forecast-in-progress?home_name=Always+Wins&away_name=Always+Loses&league=undefined&model_name=Full+simulator&home_goals=1&away_goals=3&minutes_elapsed=89 HTTP/1.1" 200 -

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.collective.metrics.AppTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-08-02T00:46:36" hostname="MSA-MacBookAir" time="0.217">
+  <properties/>
+  <testcase name="health" classname="test.collective.metrics.AppTest" time="0.203"/>
+  <testcase name="prometheus" classname="test.collective.metrics.AppTest" time="0.01"/>
+  <testcase name="metrics" classname="test.collective.metrics.AppTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO org.eclipse.jetty.util.log - Logging initialized @217ms
+[Test worker] INFO test.collective.metrics.AppTest$1 - App started.
+[Test worker] INFO org.eclipse.jetty.server.Server - jetty-9.3.0.M2
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@4f49f6af{HTTP/1.1,[http/1.1]}{0.0.0.0:8888}
+[Test worker] INFO org.eclipse.jetty.server.Server - Started @275ms
+[Test worker] INFO test.collective.metrics.AppTest$1 - App stopped.
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@4f49f6af{HTTP/1.1,[http/1.1]}{0.0.0.0:8888}
+[Test worker] INFO test.collective.metrics.AppTest$1 - App started.
+[Test worker] INFO org.eclipse.jetty.server.Server - jetty-9.3.0.M2
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@485e36bc{HTTP/1.1,[http/1.1]}{0.0.0.0:8888}
+[Test worker] INFO org.eclipse.jetty.server.Server - Started @409ms
+[Test worker] INFO test.collective.metrics.AppTest$1 - App stopped.
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@485e36bc{HTTP/1.1,[http/1.1]}{0.0.0.0:8888}
+[Test worker] INFO test.collective.metrics.AppTest$1 - App started.
+[Test worker] INFO org.eclipse.jetty.server.Server - jetty-9.3.0.M2
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@54d18072{HTTP/1.1,[http/1.1]}{0.0.0.0:8888}
+[Test worker] INFO org.eclipse.jetty.server.Server - Started @419ms
+[Test worker] INFO test.collective.metrics.AppTest$1 - App stopped.
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@54d18072{HTTP/1.1,[http/1.1]}{0.0.0.0:8888}
+]]></system-err>
+</testsuite>

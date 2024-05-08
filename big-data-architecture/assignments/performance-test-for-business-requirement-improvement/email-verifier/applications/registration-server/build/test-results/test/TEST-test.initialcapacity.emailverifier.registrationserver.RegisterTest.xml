@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.initialcapacity.emailverifier.registrationserver.RegisterTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-08-13T02:08:51" hostname="MSA-MacBookAir" time="0.721">
+  <properties/>
+  <testcase name="testConfirmationWrongCode" classname="test.initialcapacity.emailverifier.registrationserver.RegisterTest" time="0.584"/>
+  <testcase name="testRegister" classname="test.initialcapacity.emailverifier.registrationserver.RegisterTest" time="0.137"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

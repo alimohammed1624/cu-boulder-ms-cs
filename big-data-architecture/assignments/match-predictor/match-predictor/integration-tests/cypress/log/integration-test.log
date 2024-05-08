@@ -1,0 +1,21 @@
+ * Tip: There are .env or .flaskenv files present. Do "pip install python-dotenv" to use them.
+ * Serving Flask app 'matchpredictor.app'
+ * Debug mode: on
+[31m[1mWARNING: Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+unning on http://192.168.1.5:5010
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Tip: There are .env or .flaskenv files present. Do "pip install python-dotenv" to use them.
+ * Debugger is active!
+ * Debugger PIN: 879-430-406
+127.0.0.1 - - [06/Aug/2023 01:16:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2023 01:16:51] "GET /teams HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2023 01:16:51] "GET /models HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2023 01:16:52] "[35m[1mGET /upcoming-games/2023-08-05 HTTP/1.1[0m" 503 -
+127.0.0.1 - - [06/Aug/2023 01:16:56] "GET /forecast?home_name=Always+Wins&away_name=Always+Loses&league=undefined&model_name=Full+simulator HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2023 01:16:58] "GET /teams HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2023 01:16:58] "GET /models HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2023 01:16:59] "[35m[1mGET /upcoming-games/2023-08-05 HTTP/1.1[0m" 503 -
+127.0.0.1 - - [06/Aug/2023 01:17:01] "GET /forecast-in-progress?home_name=Always+Wins&away_name=Always+Loses&league=undefined&model_name=Full+simulator&home_goals=1&away_goals=3&minutes_elapsed=89 HTTP/1.1" 200 -

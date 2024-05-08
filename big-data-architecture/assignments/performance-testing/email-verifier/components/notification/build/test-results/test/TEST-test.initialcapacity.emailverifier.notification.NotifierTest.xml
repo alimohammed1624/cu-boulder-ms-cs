@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.initialcapacity.emailverifier.notification.NotifierTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-06T20:47:21" hostname="MSA-MacBookAir" time="1.487">
+  <properties/>
+  <testcase name="testNotify" classname="test.initialcapacity.emailverifier.notification.NotifierTest" time="1.487"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

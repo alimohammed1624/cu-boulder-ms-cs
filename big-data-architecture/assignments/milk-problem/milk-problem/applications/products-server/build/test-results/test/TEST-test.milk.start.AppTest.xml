@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.milk.start.AppTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-08-30T10:39:39" hostname="MSA-MacBookAir" time="1.066">
+  <properties/>
+  <testcase name="testIndex" classname="test.milk.start.AppTest" time="0.735"/>
+  <testcase name="testQuantity" classname="test.milk.start.AppTest" time="0.331"/>
+  <system-out><![CDATA[2023-08-30 16:09:39.518 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-08-30 16:09:39.598 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-08-30 16:09:39.779 [DefaultDispatcher-worker-1 @request#1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2023-08-30 16:09:39.785 [DefaultDispatcher-worker-1 @request#1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2023-08-30 16:09:39.993 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2023-08-30 16:09:40.011 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2023-08-30 16:09:40.259 [DefaultDispatcher-worker-2 @request#60] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2023-08-30 16:09:40.278 [DefaultDispatcher-worker-2 @request#60] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2023-08-30 16:09:40.283 [DefaultDispatcher-worker-2 @request#60] INFO  io.ktor.application.Application - current inventory milk, quantity=131, product_id=105442
+2023-08-30 16:09:40.283 [DefaultDispatcher-worker-2 @request#60] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.283 [DefaultDispatcher-worker-2 @request#60] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.284 [DefaultDispatcher-worker-43 @request#140] INFO  io.ktor.application.Application - current inventory milk, quantity=131, product_id=105442
+2023-08-30 16:09:40.284 [DefaultDispatcher-worker-43 @request#140] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.284 [DefaultDispatcher-worker-43 @request#140] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.284 [DefaultDispatcher-worker-45 @request#138] INFO  io.ktor.application.Application - current inventory milk, quantity=131, product_id=105442
+2023-08-30 16:09:40.284 [DefaultDispatcher-worker-45 @request#138] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.284 [DefaultDispatcher-worker-45 @request#138] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.285 [DefaultDispatcher-worker-44 @request#144] INFO  io.ktor.application.Application - current inventory milk, quantity=131, product_id=105442
+2023-08-30 16:09:40.285 [DefaultDispatcher-worker-44 @request#144] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.285 [DefaultDispatcher-worker-44 @request#144] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.285 [DefaultDispatcher-worker-48 @request#146] INFO  io.ktor.application.Application - current inventory milk, quantity=131, product_id=105442
+2023-08-30 16:09:40.285 [DefaultDispatcher-worker-48 @request#146] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.285 [DefaultDispatcher-worker-48 @request#146] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.285 [DefaultDispatcher-worker-52 @request#154] INFO  io.ktor.application.Application - current inventory milk, quantity=131, product_id=105442
+2023-08-30 16:09:40.286 [DefaultDispatcher-worker-52 @request#154] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.286 [DefaultDispatcher-worker-52 @request#154] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.286 [DefaultDispatcher-worker-46 @request#150] INFO  io.ktor.application.Application - current inventory milk, quantity=131, product_id=105442
+2023-08-30 16:09:40.286 [DefaultDispatcher-worker-46 @request#150] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.286 [DefaultDispatcher-worker-46 @request#150] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.286 [DefaultDispatcher-worker-47 @request#148] INFO  io.ktor.application.Application - current inventory milk, quantity=131, product_id=105442
+2023-08-30 16:09:40.287 [DefaultDispatcher-worker-47 @request#148] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.287 [DefaultDispatcher-worker-47 @request#148] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.287 [DefaultDispatcher-worker-9 @request#72] INFO  io.ktor.application.Application - current inventory milk, quantity=131, product_id=105442
+2023-08-30 16:09:40.287 [DefaultDispatcher-worker-9 @request#72] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.287 [DefaultDispatcher-worker-9 @request#72] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.287 [DefaultDispatcher-worker-37 @request#134] INFO  io.ktor.application.Application - current inventory milk, quantity=131, product_id=105442
+2023-08-30 16:09:40.288 [DefaultDispatcher-worker-37 @request#134] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.288 [DefaultDispatcher-worker-37 @request#134] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.288 [DefaultDispatcher-worker-41 @request#136] INFO  io.ktor.application.Application - current inventory milk, quantity=130, product_id=105442
+2023-08-30 16:09:40.288 [DefaultDispatcher-worker-41 @request#136] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.288 [DefaultDispatcher-worker-41 @request#136] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.288 [DefaultDispatcher-worker-39 @request#130] INFO  io.ktor.application.Application - current inventory milk, quantity=130, product_id=105442
+2023-08-30 16:09:40.289 [DefaultDispatcher-worker-17 @request#86] INFO  io.ktor.application.Application - current inventory milk, quantity=130, product_id=105442
+2023-08-30 16:09:40.289 [DefaultDispatcher-worker-17 @request#86] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.289 [DefaultDispatcher-worker-17 @request#86] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.289 [DefaultDispatcher-worker-39 @request#130] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.289 [DefaultDispatcher-worker-39 @request#130] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.290 [DefaultDispatcher-worker-35 @request#122] INFO  io.ktor.application.Application - current inventory milk, quantity=130, product_id=105442
+2023-08-30 16:09:40.291 [DefaultDispatcher-worker-35 @request#122] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.291 [DefaultDispatcher-worker-35 @request#122] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.291 [DefaultDispatcher-worker-36 @request#126] INFO  io.ktor.application.Application - current inventory milk, quantity=129, product_id=105442
+2023-08-30 16:09:40.291 [DefaultDispatcher-worker-36 @request#126] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.291 [DefaultDispatcher-worker-36 @request#126] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.291 [DefaultDispatcher-worker-5 @request#70] INFO  io.ktor.application.Application - current inventory milk, quantity=129, product_id=105442
+2023-08-30 16:09:40.292 [DefaultDispatcher-worker-5 @request#70] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.292 [DefaultDispatcher-worker-5 @request#70] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.292 [DefaultDispatcher-worker-13 @request#76] INFO  io.ktor.application.Application - current inventory milk, quantity=128, product_id=105442
+2023-08-30 16:09:40.292 [DefaultDispatcher-worker-13 @request#76] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.292 [DefaultDispatcher-worker-13 @request#76] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.294 [DefaultDispatcher-worker-40 @request#128] INFO  io.ktor.application.Application - current inventory milk, quantity=128, product_id=105442
+2023-08-30 16:09:40.294 [DefaultDispatcher-worker-32 @request#118] INFO  io.ktor.application.Application - current inventory milk, quantity=128, product_id=105442
+2023-08-30 16:09:40.294 [DefaultDispatcher-worker-32 @request#118] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.294 [DefaultDispatcher-worker-32 @request#118] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.294 [DefaultDispatcher-worker-40 @request#128] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.294 [DefaultDispatcher-worker-40 @request#128] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.294 [DefaultDispatcher-worker-11 @request#78] INFO  io.ktor.application.Application - current inventory milk, quantity=127, product_id=105442
+2023-08-30 16:09:40.294 [DefaultDispatcher-worker-11 @request#78] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.294 [DefaultDispatcher-worker-11 @request#78] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.294 [DefaultDispatcher-worker-12 @request#74] INFO  io.ktor.application.Application - current inventory milk, quantity=127, product_id=105442
+2023-08-30 16:09:40.295 [DefaultDispatcher-worker-12 @request#74] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.295 [DefaultDispatcher-worker-12 @request#74] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.295 [DefaultDispatcher-worker-23 @request#104] INFO  io.ktor.application.Application - current inventory milk, quantity=127, product_id=105442
+2023-08-30 16:09:40.295 [DefaultDispatcher-worker-23 @request#104] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.295 [DefaultDispatcher-worker-23 @request#104] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.295 [DefaultDispatcher-worker-26 @request#100] INFO  io.ktor.application.Application - current inventory milk, quantity=127, product_id=105442
+2023-08-30 16:09:40.295 [DefaultDispatcher-worker-26 @request#100] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.295 [DefaultDispatcher-worker-26 @request#100] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.295 [DefaultDispatcher-worker-8 @request#68] INFO  io.ktor.application.Application - current inventory milk, quantity=127, product_id=105442
+2023-08-30 16:09:40.295 [DefaultDispatcher-worker-8 @request#68] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.295 [DefaultDispatcher-worker-8 @request#68] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.295 [DefaultDispatcher-worker-34 @request#120] INFO  io.ktor.application.Application - current inventory milk, quantity=127, product_id=105442
+2023-08-30 16:09:40.295 [DefaultDispatcher-worker-34 @request#120] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.295 [DefaultDispatcher-worker-34 @request#120] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.296 [DefaultDispatcher-worker-1 @request#58] INFO  io.ktor.application.Application - current inventory milk, quantity=126, product_id=105442
+2023-08-30 16:09:40.296 [DefaultDispatcher-worker-1 @request#58] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.296 [DefaultDispatcher-worker-1 @request#58] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.296 [DefaultDispatcher-worker-19 @request#92] INFO  io.ktor.application.Application - current inventory milk, quantity=126, product_id=105442
+2023-08-30 16:09:40.296 [DefaultDispatcher-worker-19 @request#92] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.296 [DefaultDispatcher-worker-19 @request#92] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.297 [DefaultDispatcher-worker-22 @request#94] INFO  io.ktor.application.Application - current inventory milk, quantity=126, product_id=105442
+2023-08-30 16:09:40.297 [DefaultDispatcher-worker-22 @request#94] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.298 [DefaultDispatcher-worker-22 @request#94] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.298 [DefaultDispatcher-worker-28 @request#110] INFO  io.ktor.application.Application - current inventory milk, quantity=126, product_id=105442
+2023-08-30 16:09:40.298 [DefaultDispatcher-worker-28 @request#110] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.298 [DefaultDispatcher-worker-28 @request#110] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.298 [DefaultDispatcher-worker-21 @request#98] INFO  io.ktor.application.Application - current inventory milk, quantity=126, product_id=105442
+2023-08-30 16:09:40.298 [DefaultDispatcher-worker-14 @request#80] INFO  io.ktor.application.Application - current inventory milk, quantity=126, product_id=105442
+2023-08-30 16:09:40.298 [DefaultDispatcher-worker-21 @request#98] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.298 [DefaultDispatcher-worker-30 @request#112] INFO  io.ktor.application.Application - current inventory milk, quantity=126, product_id=105442
+2023-08-30 16:09:40.299 [DefaultDispatcher-worker-14 @request#80] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.299 [DefaultDispatcher-worker-25 @request#102] INFO  io.ktor.application.Application - current inventory milk, quantity=126, product_id=105442
+2023-08-30 16:09:40.299 [DefaultDispatcher-worker-25 @request#102] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.299 [DefaultDispatcher-worker-25 @request#102] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.299 [DefaultDispatcher-worker-21 @request#98] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.299 [DefaultDispatcher-worker-30 @request#112] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.299 [DefaultDispatcher-worker-30 @request#112] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.299 [DefaultDispatcher-worker-14 @request#80] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.299 [DefaultDispatcher-worker-24 @request#108] INFO  io.ktor.application.Application - current inventory milk, quantity=126, product_id=105442
+2023-08-30 16:09:40.299 [DefaultDispatcher-worker-31 @request#116] INFO  io.ktor.application.Application - current inventory milk, quantity=126, product_id=105442
+2023-08-30 16:09:40.300 [DefaultDispatcher-worker-24 @request#108] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.300 [DefaultDispatcher-worker-24 @request#108] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.300 [DefaultDispatcher-worker-31 @request#116] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.300 [DefaultDispatcher-worker-31 @request#116] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.300 [DefaultDispatcher-worker-27 @request#106] INFO  io.ktor.application.Application - current inventory milk, quantity=126, product_id=105442
+2023-08-30 16:09:40.300 [DefaultDispatcher-worker-27 @request#106] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.301 [DefaultDispatcher-worker-27 @request#106] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.301 [DefaultDispatcher-worker-20 @request#96] INFO  io.ktor.application.Application - current inventory milk, quantity=126, product_id=105442
+2023-08-30 16:09:40.301 [DefaultDispatcher-worker-20 @request#96] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.301 [DefaultDispatcher-worker-3 @request#56] INFO  io.ktor.application.Application - current inventory milk, quantity=126, product_id=105442
+2023-08-30 16:09:40.301 [DefaultDispatcher-worker-3 @request#56] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.301 [DefaultDispatcher-worker-3 @request#56] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.301 [DefaultDispatcher-worker-20 @request#96] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.302 [DefaultDispatcher-worker-10 @request#82] INFO  io.ktor.application.Application - current inventory milk, quantity=125, product_id=105442
+2023-08-30 16:09:40.302 [DefaultDispatcher-worker-42 @request#142] INFO  io.ktor.application.Application - current inventory milk, quantity=125, product_id=105442
+2023-08-30 16:09:40.302 [DefaultDispatcher-worker-42 @request#142] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.302 [DefaultDispatcher-worker-10 @request#82] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.302 [DefaultDispatcher-worker-10 @request#82] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.302 [DefaultDispatcher-worker-42 @request#142] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.302 [DefaultDispatcher-worker-15 @request#90] INFO  io.ktor.application.Application - current inventory milk, quantity=125, product_id=105442
+2023-08-30 16:09:40.302 [DefaultDispatcher-worker-7 @request#66] INFO  io.ktor.application.Application - current inventory milk, quantity=125, product_id=105442
+2023-08-30 16:09:40.302 [DefaultDispatcher-worker-15 @request#90] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.303 [DefaultDispatcher-worker-15 @request#90] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.302 [DefaultDispatcher-worker-7 @request#66] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.303 [DefaultDispatcher-worker-7 @request#66] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.303 [DefaultDispatcher-worker-16 @request#88] INFO  io.ktor.application.Application - current inventory milk, quantity=125, product_id=105442
+2023-08-30 16:09:40.303 [DefaultDispatcher-worker-16 @request#88] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.303 [DefaultDispatcher-worker-16 @request#88] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.304 [DefaultDispatcher-worker-38 @request#132] INFO  io.ktor.application.Application - current inventory milk, quantity=124, product_id=105442
+2023-08-30 16:09:40.304 [DefaultDispatcher-worker-38 @request#132] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.304 [DefaultDispatcher-worker-38 @request#132] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.306 [DefaultDispatcher-worker-33 @request#124] INFO  io.ktor.application.Application - current inventory milk, quantity=118, product_id=105442
+2023-08-30 16:09:40.306 [DefaultDispatcher-worker-33 @request#124] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.306 [DefaultDispatcher-worker-33 @request#124] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.307 [DefaultDispatcher-worker-49 @request#152] INFO  io.ktor.application.Application - current inventory milk, quantity=115, product_id=105442
+2023-08-30 16:09:40.307 [DefaultDispatcher-worker-49 @request#152] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.307 [DefaultDispatcher-worker-18 @request#84] INFO  io.ktor.application.Application - current inventory milk, quantity=115, product_id=105442
+2023-08-30 16:09:40.307 [DefaultDispatcher-worker-18 @request#84] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.307 [DefaultDispatcher-worker-49 @request#152] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.307 [DefaultDispatcher-worker-18 @request#84] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.309 [DefaultDispatcher-worker-4 @request#64] INFO  io.ktor.application.Application - current inventory milk, quantity=112, product_id=105442
+2023-08-30 16:09:40.309 [DefaultDispatcher-worker-4 @request#64] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.309 [DefaultDispatcher-worker-4 @request#64] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.311 [DefaultDispatcher-worker-6 @request#62] INFO  io.ktor.application.Application - current inventory milk, quantity=105, product_id=105442
+2023-08-30 16:09:40.311 [DefaultDispatcher-worker-6 @request#62] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.311 [DefaultDispatcher-worker-6 @request#62] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+2023-08-30 16:09:40.312 [DefaultDispatcher-worker-29 @request#114] INFO  io.ktor.application.Application - current inventory milk, quantity=101, product_id=105442
+2023-08-30 16:09:40.312 [DefaultDispatcher-worker-29 @request#114] INFO  io.ktor.application.Application - received purchase for milk, quantity=1, product_id=105442
+2023-08-30 16:09:40.312 [DefaultDispatcher-worker-29 @request#114] INFO  io.milk.products.ProductDataGateway - decrementing the milk quantity by 1 for product_id=105442
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

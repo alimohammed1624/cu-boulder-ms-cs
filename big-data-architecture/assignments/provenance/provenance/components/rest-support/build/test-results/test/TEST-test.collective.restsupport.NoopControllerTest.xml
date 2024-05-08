@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.collective.restsupport.NoopControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-02T00:36:35" hostname="MSA-MacBookAir" time="0.212">
+  <properties/>
+  <testcase name="testGet" classname="test.collective.restsupport.NoopControllerTest" time="0.212"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO org.eclipse.jetty.util.log - Logging initialized @261ms
+[Test worker] INFO test.collective.restsupport.NoopControllerTest$app$1 - App started.
+[Test worker] INFO org.eclipse.jetty.server.Server - jetty-9.3.0.M2
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@71687585{HTTP/1.1,[http/1.1]}{0.0.0.0:8888}
+[Test worker] INFO org.eclipse.jetty.server.Server - Started @326ms
+[Test worker] INFO test.collective.restsupport.NoopControllerTest$app$1 - App stopped.
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@71687585{HTTP/1.1,[http/1.1]}{0.0.0.0:8888}
+]]></system-err>
+</testsuite>
