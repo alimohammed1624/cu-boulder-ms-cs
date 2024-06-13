@@ -1,10 +1,11 @@
 big-data-architecture/assignments/consistent-hash-exchange/email-verifier-src.zip
 big-data-architecture/assignments/consistent-hash-exchange/email-verifier.zip
 big-data-architecture/assignments/match-predictor/match-predictor-mohammed.zip
-big-data-architecture/assignments/milk-problem-continued/milk-problem-continued/.git/index
+big-data-architecture/assignments/milk-problem-continued/milk-problem-continued/
 big-data-architecture/assignments/milk-problem/milk-problem-mohammed.zip
-big-data-architecture/tempest/.git/index
+big-data-architecture/tempest/
 machine-learning/supervised/Module4/data/mnist_784.csv
-machine-learning/supervised/supervised-learning-final/.git/index
+machine-learning/supervised/supervised-learning-final/
 machine-learning/unsupervised/Module2/data/data.csv
 machine-learning/unsupervised/Module1/data/fashionmnist/train_images.pkl
+*.DS_Store
